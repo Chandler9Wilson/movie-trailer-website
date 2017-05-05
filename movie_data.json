@@ -1,0 +1,14 @@
+{
+  "movies": [
+    {
+      "movie_title": "John Wick",
+      "poster_image_url": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg",
+      "trailer_youtube_url": "https://www.youtube.com/watch?v=2AUmvWm5ZDQ"
+    },
+    {
+      "movie_title": "Deadpool",
+      "poster_image_url": "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg",
+      "trailer_youtube_url": "https://www.youtube.com/watch?v=FyKWUTwSYAs"
+    }
+  ]
+}
