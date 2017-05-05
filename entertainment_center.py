@@ -2,16 +2,17 @@ import json
 import media
 import fresh_tomatoes
 
-MOVIES = {}
+movies = {}
 
 with open('movie_data.json') as data_file:
-    DATA = json.load(data_file)
+    data = json.load(data_file)
+
 
 def data_to_movie(movie_info):
-    '''instatiates Movie then appends to movies list'''
+    # instatiates Movie then appends to movies list
     for movie in movie_info['movies']:
         movie_title = movie["movie_title"]
-        MOVIES[movie_title] = media.Movie(movie)
+        movies[movie_title] = media.Movie(movie)
 
-data_to_movie(DATA)
-fresh_tomatoes.open_movies_page(MOVIES)
+data_to_movie(data)
+fresh_tomatoes.open_movies_page(movies)
