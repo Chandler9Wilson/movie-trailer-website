@@ -14,5 +14,4 @@ def data_to_movie(movie_info):
         MOVIES[movie_title] = media.Movie(movie)
 
 data_to_movie(DATA)
-print MOVIES
 fresh_tomatoes.open_movies_page(MOVIES)
